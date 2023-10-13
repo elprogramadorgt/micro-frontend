@@ -19,5 +19,5 @@ yarn build && yarn serve
 ```sh
 cd main 
 pnpm i
-yarn build && yarn 
+pnpm dev
 ```
