@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 // import Edu from "dashboardApp/Edu"
@@ -23,7 +22,7 @@ function App() {
       <Routes>
 
         <Route path="/" element={<About />} />
-        <Route path="/edu" element={<EduComponent />} />
+        <Route path="/eduroute" element={<EduComponent />} />
 
       </Routes>
     </>
